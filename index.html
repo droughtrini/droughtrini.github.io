@@ -1,117 +1,822 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Web Design Business Site">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-    <!-- Test use of new font from Google and Font Awesome-->
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Allidap Design</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'> 
-    <link rel="stylesheet" href="http://allidapdesign.com/fonts/font-awesome-4.5.0/css/font-awesome.min.css">
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>Allidap Design</title>
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
+   <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="http://allidapdesign.com/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="http://allidapdesign.com/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
 
-    <!-- Custom styles for this template -->
-    <link href="http://allidapdesign.com/css/custom.css" rel="stylesheet">
+</head>
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="http://allidapdesign.com/js/ie-emulation-modes-warning.js"></script>
+<body>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+  <!-- Preloader --> 
+    <div id="preloader">
+      <div class="loader"></div>    
+    </div><!--preloader end-->
 
-  <body>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      
-<div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Welcome</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="who.html">Who I Am</a></li>
-            <li><a href="what.html">What We Do</a></li>
+      <nav id="m-nav">
+
+         <a class="mobile-btn" href="#m-nav" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About Me</a></li>
+            <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline wow zoomIn">I'm <span>Richard Padilla</span></h1>
+            <h3 class="wow fadeInUp">We are a fledging Web Design Company called Allidap Design where I'm passionate about things computing and presently work as a <span>Windows System Administrator </span> while re-training as a <span>Web Developer </span>. We are looking to creating modern and responsive design for <span>Web</span> and <span>Mobile</span> that can help enhance <span>Small</span> and <span>Medium Enterprise</span> Businesses in the Caribbean and Worldwide. <br> Let's learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="fa fa-angle-double-down"></i></a>
+      </p>
+
+      <div class="header-overlay"></div>
+
+   <!-- Social Section
+   ================================================== -->
+   <div id="social">
+      <div class="row social-container">
+            <ul class="social">
+               <li><a href="https://www.facebook.com/droughtrini"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/droughtrini"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://plus.google.com/u/0/+RichardPadilla2901"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/droughtrini/droughtrini.github.io"><i class="fa fa-github"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+      </div>
+
+   </div> <!-- Social End -->
+
+   </header> <!-- Header End -->
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row bio-container">
+        <div class="twelve columns bio-inner">
+         <div class="six columns bio-left"> 
+         <div class="pp-container">
+
+            <img class="profile-pic wow zoomIn"  src="images/castara.jpg" alt="" />
+              <h2>Richard Padilla</h2>
+              <h3>Win System Admin/Web Developer</h3>              
+            </div> <!-- Profile Picture -->
+         </div>
+
+
+         <div class="six columns main-col wow fadeIn">
+          <div class="arrow-left"></div>
+
+            <p>With more than 20 years experience of working in IT, presently I'm a Windows Systems Administrator. I have finally decided to get back to re-train myself in web development and hoping to be web designing very soon. 
+                We at Allidap Design are looking at how to delivery reputable and cost effective web design, hosting and development for Small and Medium Enterprises (SMEs) anywhere in CARICOM (Caribbean) region as well as worldwide. Being a small company helps us find those who unable to find the right target market that Small and Medium Enterprises are or may not understanding how to implement. We will like to offer a one-stop shop for those who feel that internet marketing is complicated and expensive, as we will like to offer an affordable alternative. Web site is presently under construction at this time.
+            </p>
+
+          <div class="row">            
+            <div class="six columns download">
+                <p>
+                  <a href="#contact" class="button"><i class="fa fa-paper-plane"></i>Contact Us</a>
+                  <a href="docs/cv15.pdf" class="button" target="_blank"><i class="fa fa-download"></i>Download Resume</a>
+                </p>
+            </div> <!-- Download Buttons --> 
+      </div>
+
+         </div> <!-- end .main-col -->
+      </div>
+      </div>
+
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+    <h1 class="section-title wow fadeInDown">Resume</h1>
+      <!-- Education
+      =============================================== -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h2><span>Education</span></h2>
+         </div>
+
+      <div class="nine columns main-col">
+         <div class="education-timeline">
+            <ul class="timeline wow fadeInUp">
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">September 2009 - July 2012</p>
+                  <h3>University of Portsmouth, Portsmouth Business School</h3>
+                  <h4>PhD</h4>
+                  <p><strong>PhD. In eBusiness</strong><br>
+                     Dissertation Titled: “Can SMEs gain from eBusiness Development
+in CARICOM: An Empirical Study” not completed due to failing at the half way point.</p>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">September 2003 - July 2008</p>
+                  <h3>University of Portsmouth, Portsmouth Business School</h3>
+                  <h4>Master of Science</h4>
+                  <p><strong>M.Sc. Ecommerce with Marketing</strong><br>
+                     Wrote the following Thesis Titled: ”eCommerce a CARICOM Initiative for Small and
+			Medium Enterprises (SMEs)”</p>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">September 1990 - July 1994</p>
+                  <h3>University of Westminster</h3>
+                  <h4>Bachelor of Science</h4>
+                  <p><strong>BSc. In Computing (Hons)</strong><br>
+                      Completed BSc. in programming and computing</p>
+                </div>
+              </li>
+            </ul>  
+         </div> <!-- Education Timeline End --> 
+      </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ========================================= -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h2><span>Employment</span></h2>
+         </div>
+
+         <div class="nine columns main-col">
+
+         <div class="work-timeline">
+            <ul class="timeline">
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">May 2013 - Present</p>
+                  <h3>University of the Arts London (UAL)</h3>
+                  <h4>Windows System Administrator</h4>
+                  <p>Deliver, maintain and implement hardware systems and related services. Install, configure, manage and patch MS       Windows-based servers, clusters, network storage, network appliances, and their operating systems and associated software.
+Monitor capacity and initiate action to resolve any shortfalls according to agreed procedures.</p>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">January 2001 - April 2013</p>
+                  <h3>University of the Arts London (UAL)</h3>
+                  <h4>Senior Support Analyst</h4>
+                  <p> Deliver hardware and software services. Participation in the development and on-going support of the University’s desktop computer environment. </p>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">May 99 - October 2000</p>
+                  <h3>IIED</h3>
+                  <h4>Technical Support Analyst</h4>
+                  <p>Worked in the IT Department looking after PCs and limited Server administration for an environmental organization involved in developing policies in third world countries on environmental issues.  </p>
+                </div>
+              </li>
+            </ul>  
+         </div> <!-- Work Timeline End --> 
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      =============================================== -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h2><span>Skills</span></h2>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>At present I'm re-training my web development skills and as this will take some time to renew and redevelop, but I will be ready in the new year for jobs and advising in deliverying IT Systems and Web Services. 
+            </p>
+
+        <div class="bars">
+
+           <ul class="skills">
+            <li><span class="bar-expand photoshop wow fadeInLeft"></span><em>Photoshop</em></li>
+            <li><span class="bar-expand css wow fadeInLeft"></span><em>CSS</em></li>
+            <li><span class="bar-expand html5 wow fadeInLeft"></span><em>HTML5</em></li>
+           
+                <!-- <li><span class="bar-expand illustrator wow fadeInLeft"></span><em>Illustrator</em></li> -->
+               <!-- <li><span class="bar-expand jquery wow fadeInLeft"></span><em>jQuery</em></li> -->   
+             <!-- <li><span class="bar-expand wordpress wow fadeInLeft"></span><em>Wordpress</em></li> -->  
+               
+               
           </ul>
-        </div>
-      </div>
- 
-    </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Welcome To Allidap Design!</h1>
-        <p>We at Allidap Design are looking at how to delivery reputable and cost effective web design, hosting and development for Small and Medium Enterprises (SMEs) anywhere in CARICOM (Caribbean) region as well as worldwide. Being a small company helps us find those who unable to find the right target market that Small and Medium Enterprises are or may not understanding how to implement. We will like to offer a one-stop shop for those who feel that internet marketing is complicated and expensive, as we will like to offer an affordable alternative. Web site is presently under construction at this time.</p>
-        <p><a class="btn btn-primary btn-lg" href="what.html" role="button">Learn more &raquo;</a></p>
-      </div>
-    </div>
+        </div><!-- end skill-bars -->
 
-    <div class="container">
-      <!-- Example row of columns -->
+      </div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+      <!-- Awards
+      =============================================== -->
+     <div class="row awards">
+
+         <div class="three columns header-col">
+            <h2><span>Achievements</span></h2>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <ol>
+             
+             <li>Lead in Enterprise Certificate Authority for UAL environment, testing autoenrollment and web server certification and binding to IIS.</li>
+             <li>Co-led in the file migration project migrating data from NetWare 6.5 to Windows W2K8 File Servers, with full AD group security implementation.</li>
+             <li>Co-led in the arrest of virus issues at University due to current weakness of Oracle Java.</li>
+             <li>Instituted equipment recycling procedures for old PCs, MACs and other redundant equipment.</li>
+             <li>Designed, Planned and implemented redesign of IT Services website while migrating IT Department old web site using RedDot CMS.</li>
+             <li>Maintained and deployed IDCS systems and printers throughout University. </li>
+             <li>Part of Support Team that carried out daily problem solving activities to ensure customer satisfaction with problems they encounter.</li>
+             <li>Configuration and testing of hardware and software.</li>
+             <li>Designed, Planned and implemented migrated of Amoco’s Drilling Department 40 years of drilling data from an Access 2.0 to Oracle 8 on a UNIX backbone.</li>
+             <li>Designed, planned and implemented networking of BP/Amoco Staff Complex for staff and expatriates for both connections to the Internet and LAN Networks at Amoco Gelota Point.</li>
+             <li>Deployed, planned and implemented a cable network project between two satellite offshore platforms using fibre.</li>
+             <li>Maintains knowledge base on the helpdesk system to ensure problem solutions are available to colleagues.</li>
+             <li>Developing IT documentation and reports for users and the technical team.</li>
+             
+             </ol>     
+
+
+				<!-- <div class="award-list">
+
+				   <ul>
+             <li class="wow fadeIn">
+                <span><i class="fa fa-trophy fa-5x pull-left fa-fw"></i></span>
+                <h3>App Development Contest</h3>
+                <h5>Winner</h5>
+                <h4>Dhaka, Bangladesh</h4>
+             </li>
+             <li class="wow fadeIn">
+                <span><i class="fa fa-trophy fa-5x pull-left fa-fw"></i></span>
+                <h3>Best Front-End Developers Award</h3>
+                <h5>Top Front-End Developer</h5>
+                <h4>San Fransisco, USA</h4>
+             </li>
+             <li class="wow fadeIn">
+                <span><i class="fa fa-trophy fa-5x pull-left fa-fw"></i></span>
+                <h3>Awesome UI/UX Designers Award</h3>
+                <h5>Best UI/UX Designer</h5>
+                <h4>New York, USA</h4>
+             </li>
+					   <li class="wow fadeIn">
+                <span><i class="fa fa-microphone fa-5x pull-left fa-fw"></i></span>
+                <h3>UX Conference</h3>
+                <h5>Speaker</h5>
+                <h4>Dhaka, Bangladesh</h4>
+             </li>
+
+					</ul>
+
+				</div><!-- end awards list -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <!--<section id="portfolio">
+
       <div class="row">
 
-        <div class="col-md-6">
-          <h2 style="color:red;">Who Am I</h2>
-          <p>With more than 20 years experience of working in IT, presently I'm a Windows Systems Administrator, being involved with managing, developing and implementing systems across enterprise wide for the University of the Arts London. I have finally decided to get back to re-train myself in web development and hoping to be web designing very soon.</p>
-          <p><a class="btn btn-default" href="who.html" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-6">
-          <h2 style="color:red;">What We Do</h2>
-          <p>We provide web services that Small and Medium Enterprises are unable to understand the impacts of its development and through gathering their requirements needed to help enhance and better their business. At a rate that helps Small and Medium Enterprises get involved with the internet and exapnding the future for SMEs.</p>
-          <p><a class="btn btn-default" href="what.html" role="button">View details &raquo;</a></p>
-       </div>
-        </div> <!-- /.container -->
+         <div class="twelve columns collapsed">
 
-      <hr>
+            <h1 class="section-title wow fadeInDown">Some of My Works</h1>
 
-      <footer>
-        <p>&copy; 2015 Allidap Design.</p>
-          
-          <div class="wrapper">
-            <ul class="social-icons icon-circle list-unstyled list-inline">
-                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></li></a>
-                <li><a href="https://plus.google.com/u/0/"><i class="fa fa-google-plus fa-2x"></i></a></li>
-                <li><a href="https://www.instagram.com/droughtrini/"><i class="fa fa-instagram fa-2x"></i></a></li>
-              <li><a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home"><i class="fa fa-linkedin fa-2x"></i></a></li>
-              
-              </ul>
-          
+            <!-- portfolio-wrapper -->
+            <!--<div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf wow fadeIn">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="http://placehold.it/300x300">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Portfolio Title</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+              <!-- <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="http://placehold.it/300x300">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Portfolio Title</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            <!--   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="http://placehold.it/300x300">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Portfolio Title</h5>
+                              <p>Webdesign</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            <!--   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="http://placehold.it/300x300">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Portfolio Title</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            <!--   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="http://placehold.it/300x300">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Portfolio Title</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            <!--   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="http://placehold.it/300x300">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Portfolio Title</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            <!--   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="http://placehold.it/300x300">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					     <h5>Portfolio Title</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+              <!-- <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="http://placehold.it/300x300">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Portfolio Title</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+          <!--  </div> <!-- portfolio-wrapper end -->
+
+       <!--  </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      =============================================== -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="http://placehold.it/640x427" alt="" />
+
+		      <div class="description-box">
+			      <h4>This is title</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#" class="button">Live Demo</a>
+		         <a class="popup-modal-dismiss button btn-close">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="http://placehold.it/640x427" alt="" />
+
+		      <div class="description-box">
+			      <h4>This is title</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#" class="button">Live Demo</a>
+		         <a class="popup-modal-dismiss button btn-close">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="http://placehold.it/640x427" alt="" />
+
+		      <div class="description-box">
+			      <h4>This is title</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#" class="button">Live Demo</a>
+		         <a class="popup-modal-dismiss button btn-close">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="http://placehold.it/640x427" alt="" />
+
+		      <div class="description-box">
+			      <h4>This is title</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#" class="button">Live Demo</a>
+		         <a class="popup-modal-dismiss button btn-close">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="http://placehold.it/640x427" alt="" />
+
+		      <div class="description-box">
+			      <h4>This is title</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#" class="button">Live Demo</a>
+		         <a class="popup-modal-dismiss button btn-close">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="http://placehold.it/640x427" alt="" />
+
+		      <div class="description-box">
+			      <h4>This is title</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#" class="button">Live Demo</a>
+		         <a class="popup-modal-dismiss button btn-close">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="http://placehold.it/640x427" alt="" />
+
+		      <div class="description-box">
+			      <h4>This is title</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#" class="button">Live Demo</a>
+		         <a class="popup-modal-dismiss button btn-close">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="http://placehold.it/640x427" alt="" />
+
+		      <div class="description-box">
+			      <h4>This is title</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#" class="button">Live Demo</a>
+		         <a class="popup-modal-dismiss button btn-close">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+            <h1 class="wow fadeInLeft">
+              <span><i class="fa fa-paper-plane fa-5x pull-left fa-fw"></i></span>
+            </h1>
+         </div>
+
+         <div class="seven columns">            
+            <h2 class="wow zoomIn">Contact Us</h2>
+            <p>I am available for further discussion on the requirements needed and how best to achieve them.</p>
+
+         </div>
+
+         <div class="three columns action wow fadeIn">
+
+            <a href="#contact" class="button">Contact Us</a>
+
+         </div>
+
+      </div>
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+  <!--<section id="testimonials">
+      <div class="text-container">
+         <div class="row">
+          <div class="twelve columns flex-container">
+            <h1 class="section-title wow fadeInDown">Client Testimonials</h1>
+
+            <div id="testimonial-slides" class="owl-carousel">
+              <div> 
+                <blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                 <cite> Jonathan Doe</cite>
+              </blockquote> 
+              </div> <!-- Single testimonial -->
+
+             <!-- <div> 
+                <blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                 <cite> Jane Doe</cite>
+              </blockquote> 
+              </div> <!-- Single testimonial -->
+
+             <!-- <div> 
+                <blockquote><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                 <cite> John Doe</cite>
+              </blockquote> 
+              </div> <!-- Single testimonial -->
+
+           <!-- </div> <!-- Owl Carousel End --> 
+
+         <!-- </div> <!-- Testimonial-container ends -->
+
+        <!-- </div> <!-- row ends -->
+
+     <!--  </div>  <!-- text-container ends -->
+
+  <!-- </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+      <div class="row section-head">
+          <div class="twelve columns">
+              <h1 class="section-title wow fadeInDown">Get In Touch</h1>
+              <p class="lead"> For further information please don't hesitate to contact us </p>
           </div>
-          
-      </footer>
-    </div> 
+      </div> <!-- Section head --> 
+
+      <div class="row">
+          <div class="five columns">
+             <div class="form-container wow fadeIn">
+               <!-- form -->
+
+               <form action="#" method="post" id="contactForm" name="contactForm">
+      				  	<fieldset>
+
+                        <div>
+      						   <input type="text" placeholder="Name" value="" size="35" id="contactName" name="contactName">
+                        </div>
+
+                        <div>
+      						   <input type="text" placeholder="Email" value="" size="35" id="contactEmail" name="contactEmail">
+                        </div>
+
+                        <div>
+      						   <input type="text" placeholder="Subject" value="" size="35" id="contactSubject" name="contactSubject">
+                        </div>
+
+                        <div>
+                           <textarea cols="5" rows="5" placeholder="Message" id="contactMessage" name="contactMessage"></textarea>
+                        </div>
+
+                        <div>
+                         <!-- contact-warning -->
+                         <div id="message-warning"> Error boy</div>
+                           <button class="submit">Submit</button>
+                           <span id="image-loader">
+                              <img alt="" src="images/loader.gif">
+                           </span>
+                        </div>
+
+      					 </fieldset>
+				        </form> <!-- Form End -->
+                         <!-- contact-success -->
+                         <div id="message-success">
+                                <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+                         </div>
+            </div>  <!-- Form Container End -->
+
+          </div>
+
+      <div class="seven columns">
+          <h1><span>Find me on Google Map</span></h1>
+         <!-- Start Google Map -->
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.001279877245!2d-0.09931141758206061!3d51.49484400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604989bdaf54b%3A0x6e9c780b399ffe35!2sLondon+College+Of+Communication!5e0!3m2!1sen!2suk!4v1450270311144" width="520" height="400" frameborder="0" style="border:0" allowfullscreen></iframe> --> 
+        <div id="map">
+         
+          </div>
+         <!-- End -->
+      </div> <!-- Row ends-->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="http://allidapdesign.com/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="http://allidapdesign.com/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+      </div> <!-- Row ends-->
+
+
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.facebook.com/droughtrini"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/droughtrini"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://plus.google.com/u/0/+RichardPadilla2901"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/droughtrini/droughtrini.github.io"><i class="fa fa-github"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li style="color: floralwhite"> Allidap Design &copy; Copyright 2015, All Rights Reserved</li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="fa fa-chevron-up"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+
+   <script src="js/jquery-2.1.1.min.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&AMP;sensor=false"></script>
+   <script src="js/gmaps.js"></script>
+   <script src="assets/owl-carousel/owl.carousel.min.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script src="js/jquery.nicescroll.min.js"></script>
+   <script src="js/script.js"></script>
+
+</body>
+
 </html>
